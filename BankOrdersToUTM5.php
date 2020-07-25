@@ -13,7 +13,7 @@ class BankOrdersToUTM5Config {
 
 	protected $LogFile = "/var/log/utm5/payments_bank/payments_bank_";
 
-	// Путь до URFA-PHP
+	// Путь до URFA-PHP https://github.com/k-shym/URFAClient
 	protected $URFA_Path = "/opt/URFAClient-1.3.0/URFAClient.php";
 	// 
 	protected $PaymentMethodBankID = 2;
