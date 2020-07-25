@@ -5,9 +5,9 @@
 
 class BankOrdersToUTM5Config {
 	// ИНН
-	protected $INN = "1102045355";
+	protected $INN = "110***********";
 	// Расчетный счет
-	protected $BankAccount = "40702810207800591229";	
+	protected $BankAccount = "40702**********************";	
 
 	protected $PaymentDayAge = 60;
 
