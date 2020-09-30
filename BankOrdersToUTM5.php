@@ -188,6 +188,8 @@ class BankOrdersToUTM5 extends BankOrdersToUTM5Config {
 
 	private function ExistsPayment($ClientAccountID, $document) {	
 		$ClientINN = $document["ПлательщикИНН"];
+		if (trim($ClientINN) == "")
+			return false;		
 		$OrderNumber = $document["Номер"];
 		$Sum = $document["Сумма"];
 		$PaymentDate = strtotime($document["Дата"]);
