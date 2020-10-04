@@ -22,7 +22,8 @@ if ($InternetBankOpenAPI->Error) {
 $AccountNumber = "40702******************";
 $StatementFormat = "TXT";
 //$StatementFormat = "JSON";
-$DateFrom = "2020-07-01";
+//$DateFrom = "2020-07-01";
+$DateFrom = date("Y-m-d", strtotime("-30 days"));;
 $DateTo = false;
 $Print = true;
 
